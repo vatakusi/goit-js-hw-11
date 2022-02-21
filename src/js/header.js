@@ -1,5 +1,3 @@
-// Notiflix.Notify.failure("Sorry, there are no images matching your search query. Please try again.");
-
 // Описан в документации
 import SimpleLightbox from 'simplelightbox';
 // Дополнительный импорт стилей
@@ -7,9 +5,6 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import Notiflix from 'notiflix';
 import { fetchDate } from './fetchDate.js';
-// import EventsApi from './fetchDate.js';
-// import ApiServce from './fetchDate.js';
-// import markupSearch from './markupSearch';
 import refs from './refs.js';
 
 let page = 1;
